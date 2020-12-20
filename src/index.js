@@ -1,20 +1,12 @@
+// import { reject, resolve } from 'core-js/fn/promise';
+// This dependency was not found:
+
+// * core-js/fn/promise in ./src/index.js
+
+// To install it, you can run: npm install --save core-js/fn/promise
 import './styles.css';
-
-//Задание 1
-// Напиши функцию delay(ms), которая возвращает промис, переходящий в состояние "resolved" через ms миллисекунд.
-// начением исполнившегося промиса должно быть то кол - во миллисекунд которое передали
-// во время вызова функции delay.
-
-const delay = ms => {
-  // Твой код
-};
-
-const logger = time => console.log(`Resolved after ${time}ms`);
-
-// Вызовы функции для проверки
-// delay(2000).then(logger); // Resolved after 2000ms
-// delay(1000).then(logger); // Resolved after 1000ms
-// delay(1500).then(logger); // Resolved after 1500ms
+import './task1';
+import './task2';
 
 //Задание 2
 // Перепиши функцию toggleUserState() так, чтобы она не использовала callback - функцию callback,

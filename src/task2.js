@@ -37,8 +37,8 @@ toggleUserState(users, 'Lux').then(logger);
 
 // const logger = updatedUsers => console.table(updatedUsers);
 
-/*
- * Сейчас работает так
- */
+// /*
+//  * Сейчас работает так
+//  */
 // toggleUserState(users, 'Mango', logger);
 // toggleUserState(users, 'Lux', logger);
